@@ -1,0 +1,311 @@
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  footer, header {
+    justify-content: space-between;
+    padding: 0 5%;
+  }
+  footer nav, header nav {
+    display: none;
+  }
+  footer .feedback_And_Phone .number a, header .feedback_And_Phone .number a {
+    margin: 0;
+    text-decoration: none;
+    color: #fff;
+  }
+  footer .feedback_And_Phone .button, header .feedback_And_Phone .button {
+    display: none;
+  }
+  main .block1 {
+    width: 100%;
+    height: 476px;
+    background-blend-mode: multiply;
+    background: url(./img/image.jpg), rgba(0, 0, 0, 0.7);
+    background-size: cover;
+  }
+  main .block1 .offer {
+    width: 339px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 85px;
+    margin: 0 auto;
+  }
+  main .block1 .offer .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 135.84%;
+  }
+  main .block1 .offer .text h2 {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 132.83%;
+  }
+  main .block1 .offer .text h2 span {
+    color: #E3B873;
+  }
+  main .block1 .offer .buttons {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 40px auto 0px auto;
+    gap: 70px;
+  }
+  main .block1 .offer .buttons .buttonOne a {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    padding: 20px 82px;
+  }
+  main .block1 .offer .buttons .buttonTwo a {
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    padding: 20px 60px;
+  }
+  main .block2 {
+    width: 100%;
+    height: 1631px;
+    display: flex;
+    justify-content: center;
+  }
+
+  main .block2 .BlockRightImage {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+
+  
+  main .block2 .BlockRightImage .leftArrow, .BlockRightImage .rightArrow {
+    display: block;
+    background: #E3B873;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: -30px;
+    z-index: 50;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border: 2px solid white;
+  }
+
+  main .block2 .BlockRightImage .leftArrow:hover , .rightArrow:hover {
+    opacity: 1;
+  }
+
+  main .block2 .BlockRightImage .leftArrow span, .rightArrow span{
+    font-size: 20px;
+    opacity: 1;
+  }
+
+  main .block2 .BlockRightImage img {
+    margin-top: 20px;
+    height: 241px;
+    border-radius: 10px;
+  }
+  main .block2 .BlockRightImage ol {
+    display: none;
+  }
+  main .block2 .group {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto 0px auto;
+  }
+  main .block2 .group .BlockLeftText {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 311px;
+  }
+  main .block2 .group .BlockLeftText .GeneralTextSmall {
+    position: absolute;
+    padding: 0;
+    margin: 300px auto 0 auto;
+    width: 340px;
+  }
+  main .block2 .group .BlockLeftText .textSmall {
+    font-size: 11px;
+    width: 160px;
+  }
+  main .block2 .group .BlockLeftText .textSmall span {
+    font-size: 14px;
+  }
+  main .block2 .group .BlockLeftText .sliderButtons {
+    display: none;
+  }
+
+ 
+
+  main .block3 {
+    margin-top: -890px;
+  }
+  main .block3 .video {
+    width: 340px;
+    height: 207px;
+  }
+  main .block3 > p {
+    width: 340px;
+    font-size: 11px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  main .block3 form .feedbackForm {
+    margin: 0;
+    flex-direction: column;
+  }
+  main .block3 form .feedbackForm .formPart {
+    margin: 0;
+  }
+  main .block3 form .feedbackForm .formPart span {
+    color: #fff;
+    opacity: 0.5;
+  }
+  main .block3 form .feedbackForm .formPart input::-moz-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  main .block3 form .feedbackForm .formPart input:-ms-input-placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  main .block3 form .feedbackForm .formPart input::placeholder {
+    color: #fff;
+    opacity: 1;
+  }
+  main .block3 form .feedbackForm .formPart:first-child {
+    margin-bottom: 65px;
+  }
+  main .block3 form .feedbackForm input {
+    background: none;
+    width: 340px;
+  }
+  main .block3 form .feedbackForm button {
+    width: 340px;
+    position: absolute;
+    margin-top: 300px;
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+  }
+  main .block3 form .checkboxForms p {
+    color: #fff;
+  }
+  main .block3 .repair {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  main .block3 .repair .item {
+    margin-bottom: 60px;
+  }
+  main .block4 .our_client {
+    display: none;
+  }
+  main .block4 .inneritBox {
+    display: none;
+  }
+  main .block5 {
+    background: #181818;
+    margin: 0;
+    height: 100%;
+  }
+  main .block5 form {
+    width: 100%;
+    background: #181818;
+    margin-top: 150px;
+  }
+  main .block5 .text {
+    width: 350px;
+  }
+  main .block5 .map {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  main .block5 .bottomBlock5 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .block5 .bottomBlock5 .text {
+    margin: 0;
+    width: 350px;
+    margin-top: 50px;
+  }
+  footer {
+    display: none;
+  }
+  main .block4 .inneritBox {
+    display: none;
+  }
+  main .block4 .inneritBoxTwo {
+    width: 100%;
+  }
+  main .block4 .inneritBoxTwo .generalInneritBox {
+    height: 100%;
+    background: none;
+  }
+  main .block4 .inneritBoxTwo .generalInneritBox .BlockText {
+    display: none;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    margin-top: -950px;
+    margin-left: 0;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox .line2 {
+    display: none;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox .line1 img:nth-of-type(2) {
+    display: none;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox .line1 {
+    margin: 0 auto;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox .line1 img:nth-of-type(1) {
+    height: 242px;
+    width: 340px;
+    margin-top: 850px;
+  }
+  main .block4 .inneritBoxTwo .imageTableBox .line1 img:nth-of-type(1)::before {
+    display: block;
+  }
+  main .block4 .clients {
+    display: none;
+  }
+  main .block4 .inneritBoxTwo .generalInneritBox {
+    height: 0%;
+    background: none;
+  }
+  main .block5 form .feedbackFormGeneralBottom .oneLineForm {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  main .block5 form .feedbackFormGeneralBottom .oneLineForm {
+    margin: 0;
+  }
+  main .block5 form .formPart .email {
+    width: 350px;
+    margin: 0;
+  }
+  main .block5 form .formPart input {
+    width: 350px;
+  }
+  main .block5 form .formPart {
+    margin-bottom: 28px;
+  }
+  main .block5 form button {
+    width: 350px;
+  }
+}/*# sourceMappingURL=adaptiv.css.map */
